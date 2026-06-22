@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Project_dish/Project_dish.vcxproj" Id="75d671a1-a51e-4d7c-93b6-cdba11d525c2" />
+</Solution>
