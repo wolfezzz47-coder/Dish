@@ -37,7 +37,7 @@ public:                // конструктори класу
 	{
 		cout << "___________________\n";
 		cout << "Name = " << this->name << "\n";
-		cout << "Phone  = " << this->country << "\n";
+		cout << "Country  = " << this->country << "\n";
 		cout << "price = " << this->price << "\n";
 		cout << "weight = " << this->weight << "\n";
 		cout << "___________________\n";
@@ -59,13 +59,13 @@ public:                // конструктори класу
 		if (!str.empty())           // перевіряємо, чи рядок не порожній
 			d.name = tmp;           // присвоюємо значення полю name
 
-		cout << "input phone: ";
+		cout << "input Country: ";
 		in.getline(tmp, 100, '\n');
 		str = tmp;
 		if (!str.empty())
 			d.country = tmp;
 
-		cout << "input age: ";
+		cout << "input price: ";
 		in >> d.price;
 
 		cout << "input weight: ";
